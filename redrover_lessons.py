@@ -390,18 +390,17 @@
 #     return s, p, d
 # print(tuple(square (2)))
 # print(square (2))
+def anketa(datas):
+    a = input('введите ключ, если не хотите продолжить, введите stop')
+    b = input('введите значение')
+    datas = dict (a=b)
+    return datas
+print(anketa(datas))
+def employee(**kwargs):
+    for k, v in kwargs.items():
+        print(f'{k}: {v}')
 
-# def anketa(datas):
-#     a = input('введите ключ, если не хотите продолжить, введите stop')
-#     b = input('введите значение')
-#     datas = dict (a=b)
-#     return datas
-# print(anketa(datas))
-# def employee(**kwargs):
-#     for k, v in kwargs.items():
-#         print(f'{k}: {v}')
-#
-# employee(last_name='Popov', name='Max', age=40, position='web developer')
+employee(last_name='Popov', name='Max', age=40, position='web developer')
 
 
 def anketa(**dan):
